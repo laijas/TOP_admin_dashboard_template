@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <link href="normalize.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <p id="logo"><img id="run-logo" src="run-logo.png" alt="run logo"><em>RUN</em>-til <br>Dawn</br></p>
+        <ul id="nav-list">
+            <li class="nav-item"><img class="nav-img" src="home-icon.png" alt="home icon">Home</li>
+            <li class="nav-item"><img class="nav-img" src="profile-icon.png" alt="profile icon">Profile</li>
+            <li class="nav-item"><img class="nav-img" src="chat-icon.png" alt="chat icon">Messages</li>
+            <li class="nav-item"><img class="nav-img" src="mail-icon.png" alt="mail icon">Mail</li>
+            <li class="nav-item"><img class="nav-img" src="history-icon.png" alt="history icon">History</li>
+            <li class="nav-item"><img class="nav-img" src="tasks-icon.png" alt="tasks icon">Tasks</li>
+            <li class="nav-item"><img class="nav-img" src="friend-icon.png" alt="friend icon">Friends</li>
+            <li class="nav-item"><img class="nav-img" src="community-icon.png" alt="communities icon">Communities</li>
+        </ul>
+        <ul id="nav-list-2">
+            <li class="nav-item"><img class="nav-img" src="settings-icon.png" alt="settings icon">Settings</li>
+            <li class="nav-item"><img class="nav-img" src="support-icon.png" alt="support icon">Support</li>
+            <li class="nav-item"><img class="nav-img" src="privacy-icon.png" alt="privacy icon">Privacy</li>
+        </ul>
+    </nav>
+    <section class="header">
+        <div id="profile-info-container">
+            <form action="#" method="get" class="search" id="search-form">
+                <label for="search-box"><img id="search-img" src="search-icon.png" alt="search icon"></label>
+                <input type="search" id="search-box" name="search" placeholder="October Stats">
+            </form>
+            <img src="alert-icon.png" alt="alert-icon" id="alert-icon" class="search">
+            <div id="profile-pic-container" class="header-items">
+                <img id="profile-pic-1" src="profile-pic.png" alt="profile pic 1">
+            </div>
+            <p id="profile-name" class="search"><em>Clickity Clackita, J</em></p>
+        </div>
+        <div id="greeting-container">
+            <div id="greeting-container-1">
+                <img src="profile-pic.png" alt="profile pic 2" id="profile-pic-2" class="greeting-items">
+                <div id="greeting-text">
+                    <h5 id="greeting-welcome" class="greeting-items">Welcome to your dashboard,</h5>
+                    <h3 id="greeting-name" class="greeting-items">Clickity Clackita</h3>
+                </div>
+            </div>
+            <div id="btn-container">
+                <button id="btn-new" class="profile-btn">New</button>
+                <button id="upload" class="profile-btn">Upload</button>
+                <button id="share" class="profile-btn">Share</button>
+            </div>
+        </div>
+    </section>
+    <div class="main-container">
+<!--         <img src="mountain-background.jpg" alt="mountain background" class="main-backgrounds">
+ -->        <h3 class="main-text" id="main-text-1">Your Highlights:</h3>
+        <h3 class="main-text" id="main-text-2">What's New</h3>
+        <section id="main-details-container">
+            <div id="your-stuff-1" class="your-stuff">
+                <h4>Your Quote of the Day:<br></br></h4>
+                <p class="main-text" id="quote">"Mindful running is the medicine that throws out all the negativity from mind and body."</p>
+                <div class="quote-author">-Invajy</div>
+                <div class="stuff-btns">
+                    <button class="details-btn"><img class="details-icons" src="favorite-icon.png" alt="favorite-icon"></button>
+                    <button class="details-btn"><img class="details-icons" src="details-icon.png" alt="details-icon"></button>
+                    <button class="details-btn"><img class="details-icons" src="share-icon.png" alt="share-icon"></button>
+                </div>
+            </div>
+            <div id="your-stuff-2" class="your-stuff">
+                <h4>Your Stat of the Day<br></br></h4>
+                <p class="main-text">You're killing it!!<br></br></p>
+                <img src="run-stats.jpg" alt="running stats" id="run-stats">
+                <div class="stuff-btns">
+                    <button class="details-btn"><img class="details-icons" src="favorite-icon.png" alt="favorite-icon"></button>
+                    <button class="details-btn"><img class="details-icons" src="details-icon.png" alt="details-icon"></button>
+                    <button class="details-btn"><img class="details-icons" src="share-icon.png" alt="share-icon"></button>
+                </div>
+            </div>
+            <div id="your-stuff-3" class="your-stuff">
+                <h4>Your Stuff 3<br></br></h4>
+                <p class="main-text">Some More Stuff!<br></br></p>
+                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae reprehenderit quasi rem totam pariatur, impedit dolorum veniam rerum facilis, harum est iste ab eius blanditiis quod quam excepturi cupiditate eveniet?</p>
+                <div class="stuff-btns">
+                    <button class="details-btn"><img class="details-icons" src="favorite-icon.png" alt="favorite-icon"></button>
+                    <button class="details-btn"><img class="details-icons" src="details-icon.png" alt="details-icon"></button>
+                    <button class="details-btn"><img class="details-icons" src="share-icon.png" alt="share-icon"></button>
+                </div>
+            </div>
+            <div id="your-stuff-4" class="your-stuff">
+                <h4>Your Stuff 4<br></br></h4>
+                <p class="main-text">Aaaand More Stuff.<br></br></p>
+                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae reprehenderit quasi rem totam pariatur, impedit dolorum veniam rerum facilis, harum est iste ab eius blanditiis quod quam excepturi cupiditate eveniet?</p>
+                <div class="stuff-btns">
+                    <button class="details-btn"><img class="details-icons" src="favorite-icon.png" alt="favorite-icon"></button>
+                    <button class="details-btn"><img class="details-icons" src="details-icon.png" alt="details-icon"></button>
+                    <button class="details-btn"><img class="details-icons" src="share-icon.png" alt="share-icon"></button>
+                </div>
+            </div>
+            <div id="your-stuff-5" class="your-stuff">
+                <h4>Your Stuff 5<br></br></h4>
+                <p class="main-text">stuff.<br></br></p>
+                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae reprehenderit quasi rem totam pariatur, impedit dolorum veniam rerum facilis, harum est iste ab eius blanditiis quod quam excepturi cupiditate eveniet?</p>
+                <div class="stuff-btns">
+                    <button class="details-btn"><img class="details-icons" src="favorite-icon.png" alt="favorite-icon"></button>
+                    <button class="details-btn"><img class="details-icons" src="details-icon.png" alt="details-icon"></button>
+                    <button class="details-btn"><img class="details-icons" src="share-icon.png" alt="share-icon"></button>
+                </div>
+            </div>
+            <div id="your-stuff-6" class="your-stuff">
+                <h4>Your Stuff 6<br></br></h4>
+                <p class="main-text">tings.<br></br></p>
+                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae reprehenderit quasi rem totam pariatur, impedit dolorum veniam rerum facilis, harum est iste ab eius blanditiis quod quam excepturi cupiditate eveniet?</p>
+                <div class="stuff-btns">
+                    <button class="details-btn"><img class="details-icons" src="favorite-icon.png" alt="favorite-icon"></button>
+                    <button class="details-btn"><img class="details-icons" src="details-icon.png" alt="details-icon"></button>
+                    <button class="details-btn"><img class="details-icons" src="share-icon.png" alt="share-icon"></button>
+                </div>
+            </div>
+        </section>
+        <section id="announcements-container">
+            <div class="announcements">
+                <h4>Runners to Watch:</h4>
+                <p>People who are not me.</p>
+            </div>
+            <div class="announcements" id="middle-announcement">
+                <div id="middle-announcement-text">
+                    <h4>Runner News:</h4>
+                    <p>These are new things in the running world.</p>
+                </div>
+            </div>
+            <div class="announcements">
+                <h4>The Best Running Shoe:</h4>
+                <p>I hear Hoka's are in.</p>
+            </div>
+        </section>
+        <h3 class="main-text" id="main-text-3">Trending:</h3>
+        <div id="trending-container">
+            <ul class="trending-profiles">
+                <li id="first-profile" class="profiles">
+                    <div class="other-profiles-container">
+                        <img src="profile-pic-1.jpg" class="other-profiles" alt="profile 1">
+                    </div>
+                    <h4 class="profiles-handle">@biscoff_shnooks</h4>
+                    <p class="profiles-description">"I run for my dog."</p>
+                </li>
+                <li class="profiles">
+                    <div class="other-profiles-container">
+                        <img src="profile-pic-2.jpg" class="other-profiles" alt="profile 2">
+                    </div>
+                    <h4 class="profiles-handle">@sirius-runner</h4>
+                    <p class="profiles-description">"I am Sirius about running.</p>
+                </li>  
+                <li class="profiles">
+                    <div class="other-profiles-container">
+                        <img src="profile-pic-3.jpg" class="other-profiles" alt="profile 3">
+                    </div>
+                    <h4 class="profiles-handle">@alaskan-summer</h4>
+                    <p class="profiles-description">"My body has adapted to the cold"</p>
+                </li>  
+                <li class="profiles">
+                    <div class="other-profiles-container">
+                        <img src="profile-pic-4.jpg" class="other-profiles" alt="profile 4">
+                    </div>
+                    <h4 class="profiles-handle">@epona</h4>
+                    <p class="profiles-description">"doo doo doo"</p>
+                </li>    
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
